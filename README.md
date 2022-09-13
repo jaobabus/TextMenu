@@ -39,7 +39,7 @@ ListLinePage<LcdDriver> page = {
     {page_name, &line, 1}
 };
 
-LiquidCrystal lcd_
+LiquidCrystal lcd_(pins...);
 LiquidCrystalDriver lcd(lcd_);
 TextMenu<LiquidCrystalDriver> text_menu(lcd, &page); // lcd driver, start page
 
