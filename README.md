@@ -21,7 +21,7 @@ public:
     }
     void callback(LcdDriver& lcd, RenderMenuAction action, uint8_t count) {
         // lcd: draw target
-        // count: count key clicked (if key was clicked more thar 1 times between calls on_key)
+        // count: count key clicked (if key was clicked more thar 1 times between on_key calls)
         // do 
     }
 
