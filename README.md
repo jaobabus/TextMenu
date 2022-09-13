@@ -11,6 +11,7 @@ TextMenu<LiquidCrystalDriver> text_menu2(lcd2);
 
 Example:
 
+```cpp
 class TestTarget {
 public:
     TestTarget() {}
@@ -58,6 +59,6 @@ void loop() {
 
 }
 
-
+```
 
 
